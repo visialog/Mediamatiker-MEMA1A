@@ -1,0 +1,10 @@
+<!Doctype html> <!-- definiert die Version von HTML -->
+<html>
+<head>
+<title> basics HTML </title>
+</head>
+<body>
+Hier im Body wird der normale Text dargestellt.
+Oder alle anderen inhalte ebenfalls.
+</body>
+</html>
