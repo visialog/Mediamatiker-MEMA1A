@@ -4,7 +4,7 @@
 <title> basics HTML </title>
 </head>
 <body>
-Hier im Body wird der normale Text dargestellt.
-Oder alle anderen inhalte ebenfalls.
+<div>Hier im Body wird der normale Text dargestellt.</div>
+<div>Oder alle anderen Inhalte ebenfalls.</div>
 </body>
 </html>
