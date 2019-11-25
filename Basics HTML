@@ -6,5 +6,6 @@
 <body>
 <div>Hier im Body wird der normale Text dargestellt.</div>
 <div>Oder alle anderen Inhalte ebenfalls.</div>
+<p>Absätze werden mit dem Tag defeiniert
 </body>
 </html>
