@@ -2,7 +2,10 @@
 
 ## Summary
 
-## Werkzeuge / Tool: Weitere Tools: https://git-scm.com/book/de/v2
+## Werkzeuge / Tool: 
+
+* [The Power of Git – in a Windows Shell](https://tortoisegit.org/)
+* Alle Tools als Übersicht  https://git-scm.com/book/de/v2
 
 ## Vorgehensweise / Prozess
 
