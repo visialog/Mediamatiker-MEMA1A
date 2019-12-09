@@ -7,8 +7,8 @@
 ## Vorgehensweise / Prozess
 
 ## Nützliche Links und Quellen
-   Context Menü: https://tortoisegit.org/
-   Unterschied zwischen Github, Gitlab (englisch): https://usersnap.com/blog/gitlab-github/
+   <br>Context Menü: https://tortoisegit.org/</br>
+   <br>Unterschied zwischen Github, Gitlab (englisch): https://usersnap.com/blog/gitlab-github/</br>
 
 ## Markdown Syntax
 
