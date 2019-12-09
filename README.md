@@ -6,7 +6,7 @@
 
  - git init --> Erstellt neues repository
  - git add --> Fügt Files hinzu
- - git commit in "changes on the readme" --> Änderung bestätigen und Nachricht dazu schreiben 
+ - git commit -m "changes on the readme" --> Änderung bestätigen und Nachricht dazu schreiben 
  - git status --> liefert Informationen über die Datein der eigenen Arbeitskopie
  - git diff --> Aktuellen Dateiinhalt mit dem Stand des letzten Commits vergleichen
  
@@ -16,15 +16,15 @@
  - clone --> repository clonen (= kopieren)
  - fork --> Abzweigung des ursprünglichen repositorys
  - pull request --> eigene Version vom repository zum Antrag stellen
- - megre --> Eigene bearbeitete Version zum orginalen repository hinzufügen
+ - merge --> Eigene bearbeitete Version zum orginalen repository hinzufügen
  - sync --> Synchronisation zwischen Lokaler Datenbank und Remote Datenbank
  
 
 ## Werkzeuge / Tool: 
 
-* [Git for Windows](https://git-scm.com/download/win)
-* [Tortoise Git: The Power of Git – in a Windows Shell](https://tortoisegit.org/)
-* [GitHub Desktop](https://desktop.github.com/)
+* [**Git for Windows**](https://git-scm.com/download/win)
+* [**Tortoise Git: The Power of Git – in a Windows Shell**](https://tortoisegit.org/)
+* [**GitHub Desktop**](https://desktop.github.com/)
 * Alle Tools als Übersicht  https://git-scm.com/book/de/v2
 
 ## Vorgehensweise / Prozess
