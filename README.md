@@ -21,6 +21,8 @@
 
 
 
+
+
 ## Summary:
 
 ### Git Lokal: 
@@ -39,13 +41,3 @@
  - pull request --> eigene Version vom repository zum Antrag stellen
  - megre --> Eigene bearbeitete Version zum orginalen repository hinzufügen
  - sync --> Synchronisation zwischen Lokaler Datenbank und Remote Datenbank
- 
-
-
-
-
-
-
-
-
-
