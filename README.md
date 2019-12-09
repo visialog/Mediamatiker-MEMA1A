@@ -4,7 +4,9 @@
 
 ## Werkzeuge / Tool: 
 
+* [Git for Windows](https://git-scm.com/download/win)
 * [The Power of Git – in a Windows Shell](https://tortoisegit.org/)
+* [GitHub Desktop](https://desktop.github.com/)
 * Alle Tools als Übersicht  https://git-scm.com/book/de/v2
 
 ## Vorgehensweise / Prozess
