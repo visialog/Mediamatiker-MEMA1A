@@ -2,7 +2,7 @@
 
 ## Summary
 
-## Werkzeuge / Tool
+## Werkzeuge / Tool: Weitere Tools: https://git-scm.com/book/de/v2
 
 ## Vorgehensweise / Prozess
 
