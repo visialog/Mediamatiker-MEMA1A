@@ -42,14 +42,16 @@ Erweiterung auch direkt einen Commit in Git-Projekten erzeugen.
 ## Vorgehensweise / Prozess
 
 ## Nützliche Links und Quellen
-Was ist github: https://t3n.de/news/eigentlich-github-472886/
-Was ist github:https://kinsta.com/de/wissensdatenbank/was-ist-github/
-Repository anlegen und code hochladen:https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
-
+* [Wissenswertes über github](https://t3n.de/news/eigentlich-github-472886/)
+* [Was ist github](https://kinsta.com/de/wissensdatenbank/was-ist-github/)
+* [Repository anlegen und code hochladen](https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/)
 * [Unterschied zwischen Github, Gitlab (englisch)](https://usersnap.com/blog/gitlab-github/)
 
 ## Markdown Syntax
-
+![Markdown Syntax](./Macintosh HD⁩/Benutzer⁩/⁨borisberger⁩/Desktop⁩/markdown_syntax.pdf)
 
 ![Übersicht Wandtafel](./assets/images/wandtafel_zusammenfassung_git_github.jpeg)
+
+
+
 
