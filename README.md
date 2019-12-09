@@ -1,5 +1,17 @@
 # Mediamatiker Modul 286
 
+## Aufgabe: Client installieren
+
+**Brauche ich eigentlich den GitHub-Desktop-Client, um mit GitHub zu arbeiten?**
+
+Mit GitHub kann man auf verschiedenen Wegen arbeiten. 
+Über die Kommandozeile nimmt man das Programm git, das bei macOS und Linux meist vorinstalliert ist;
+Windows-Nutzer finden den Download weiter unten. Der Desktop-Client erleichtert das Klonen, 
+Committen und Pushen von Repositories in einer grafischen Oberfläche. 
+Wer ausser GitHub noch andere Git-Hoster nutzt, dem empfehlen wir einen Blick auf grafische 
+Git-Clients wie Tower, GitKraken und SourceTree. Aus vielen Programmierumgebungen kann man per 
+Erweiterung auch direkt einen Commit in Git-Projekten erzeugen.
+
 ## Summary:
 
 ### Git Lokal: 
