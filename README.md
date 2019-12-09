@@ -13,7 +13,7 @@
 
 ## Nützliche Links und Quellen
 
-* [Unterschied zwischen Github, Gitlab (englisch))[https://usersnap.com/blog/gitlab-github/]
+* [Unterschied zwischen Github, Gitlab (englisch)](https://usersnap.com/blog/gitlab-github/)
 
 ## Markdown Syntax
 
