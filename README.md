@@ -48,7 +48,8 @@ Erweiterung auch direkt einen Commit in Git-Projekten erzeugen.
 * [Unterschied zwischen Github, Gitlab (englisch)](https://usersnap.com/blog/gitlab-github/)
 
 ## Markdown Syntax
-![Markdown Syntax](./Macintosh HD⁩/Benutzer⁩/⁨borisberger⁩/Desktop⁩/markdown_syntax.pdf)
+![Markdown Syntax] (https://markdown.de) 
+
 
 ![Übersicht Wandtafel](./assets/images/wandtafel_zusammenfassung_git_github.jpeg)
 
