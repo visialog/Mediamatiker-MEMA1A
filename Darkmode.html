@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Dark-Mode Test</h2>
+<p>Drücke auf den untenstehenden Button, um den Dark-Mode zu aktivieren </p>
+
+<button onclick="myFunction()">Dark-Mode aktivieren</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
+
