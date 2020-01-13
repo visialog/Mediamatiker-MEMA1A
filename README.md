@@ -6,7 +6,7 @@
 - [Der HTML-Editor ist ein unverzichtbares Werkzeug, deshalb wähle weise](https://www.drweb.de/8-besten-kostenlosen-html-editoren-webentwickler-windows-edition-53187/)
 - [Kostenlose HTML-Editoren: Die 11 Besten für Webentwickler unter macOS](https://www.drweb.de/5-besten-kostenlosen-html-editoren-webentwickler-mac-edition-53159/)
 
-### Benotete Aufgabe (Bewertung am 20.01.2020)
+### Leistungsnachweis (Bewertung am 20.01.2020)
 
 In dieser Aufgabe sollen Sie grundlegende handwerkliche Schritte durchführen, die bei der Webentwicklung ständig benötigen werden. Vieles von dem, was Sie für diese Aufgabe anwenden, benötigen Sie auch in anderen Bereichen ausserhalb der Webentwicklung.
 
