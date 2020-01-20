@@ -6,7 +6,9 @@
 
 ### Erstellung von Enwicklungszweigen (Branches, Merge) und Versionen (Tags)
 
-Die **Versionsnummer** ist die Grundlage für die Versionsverwaltung. Den Prozess der Vergabe der Versionsnummer nennt man Versionierung. Für die Software-Entwicklung stellen Versionsnummern eine weitaus wichtigere Information als für den Kunden dar. Mit Hilfe der Versionsnummern kann unter anderem sichergestellt werden, dass in Entwicklergruppen neue Programmteile nicht mit älteren überschrieben werden. Auf Grundlage einer Versionsnummer von `MAJOR.MINOR.PATCH` nach der [Semantic Versioning Spezifikation](https://semver.org/lang/de/) werden die einzelnen Elemente folgendermassen erhöht:
+Die **Versionsnummer** ist die Grundlage für die Versionsverwaltung. Den Prozess der Vergabe der Versionsnummer nennt man Versionierung. Für die Software-Entwicklung stellen Versionsnummern eine weitaus wichtigere Information als für den Kunden dar. Mit Hilfe der Versionsnummern kann unter anderem sichergestellt werden, dass in Entwicklergruppen neue Programmteile nicht mit älteren überschrieben werden.
+
+Auf Grundlage einer Versionsnummer von `MAJOR.MINOR.PATCH` nach der [Semantic Versioning Spezifikation](https://semver.org/lang/de/) werden die einzelnen Elemente folgendermassen erhöht:
 
 1. MAJOR wird erhöht, wenn (API-)inkompatible Änderungen veröffentlicht werden,
 2. MINOR wird erhöht, wenn neue Funktionalitäten, welche kompatibel zur bisherigen API sind, veröffentlicht werden, und
@@ -14,45 +16,67 @@ Die **Versionsnummer** ist die Grundlage für die Versionsverwaltung. Den Prozes
 
 **Tags** werden verwendet, um wichtige Punkte in der Projekthistorie zu markieren. Tags können anstelle der Commit-Hashes verwendet werden, um Commits zu referenzieren. *Es ist üblich, bei einem Release den jeweiligen Commit mit einer Versionsnummern (Tag) zu versehen.* Git unterstützt sog. *Annotierte Tags*, diese werden als vollständige Objekte in der Git-Datenbank gespeichert. Somit enthalten Sie den Author, die E-Mail und das Datum, haben eine Meldung und können mit GNU Privacy Guard (GPG) signiert und überprüft werden.
 
-Ein **Branch** repräsentiert eine unabhängige Entwicklungslinie. Wenn wir ein neues Feature hinzufügen oder einen Bug fixen wollen – unabhängig von der Grösse –, setzen wir einen neuen Branch auf, um unsere Änderungen abzukapseln. So wird sichergestellt, dass instabiler Code nicht direkt ins Hauptprojekt committet wird, und wir haben die Möglichkeit, die History unseres Features aufzuräumen, bevor wir es in den Haupt-Branch mergen.
-
+Ein **Branch** repräsentiert eine **unabhängige Entwicklungslinie**. Wenn wir ein neues Feature hinzufügen oder einen Bug fixen wollen – unabhängig von der Grösse –, setzen wir einen neuen Branch auf, um unsere Änderungen abzukapseln. So wird sichergestellt, dass instabiler Code nicht direkt ins Hauptprojekt committet wird, und wir haben die Möglichkeit, die History unseres Features aufzuräumen, bevor wir es in den Haupt-Branch mergen.
 
 #### Übung: `git tag`
 
 **Reproduzieren Sie die folgende Anweisungen in ihrem persönlichem Repository.**
 
 Die folgende Anweisung erzeugt ein neuer kommentierten Tag, das mit v1.4 identifiziert wird:
-`git tag -a v1.4 -m "my version 1.4"`
 
-Um die gespeicherte Tags in einem Repo aufzulisten, führen Sie folgender Befehl aus:
-`git tag`
+```bash
+git tag -a v1.4 -m "my version 1.4"
+```
+
+Um die gespeicherte Tags in einem Repo aufzulisten, führen wir folgender Befehl aus:
+
+```bash
+git tag
+```
 
 Standardmässig beinhaltet ein `git push` keine Tags. Diese müssen explizit an `git push` übergeben werden.
-`git push origin v1.4`
+
+```bash
+git push origin v1.4
+```
 
 #### Übung: `git branch`
 
-`git branch`
-Listet alle Branches im Repository auf.
+**Reproduzieren Sie die folgende Anweisungen in ihrem persönlichem Repository.**
 
 Erstellen wir einen Branch mit dem folgenden Befehl:
-`git branch crazy-experiment`
+
+```bash
+git branch crazy-experiment
+```
 
 Auf diese Weise wird lediglich ein neuer Branch erstellt. Wenn wir beginnen wollen, ihm Commits hinzuzufügen, müssen wir ihn mit `git checkout` auswählen und dann die Standardbefehle `git add` und `git commit` verwenden.
 
-`git checkout crazy-experiment`
-Checkt den spezifischen Branch aus, der mit `git branch` erstellt wurde.
+```bash
+git checkout crazy-experiment // Checkt den spezifischen Branch aus, der mit `git branch` erstellt wurde.
+```
 
-Um einen Branch zu erstellen und diesen direkt einzusetzen, führen Sie folgende Anweisung durch:
-`git checkout -b fancy-experiment`
+Um einen Branch zu erstellen und diesen direkt einzusetzen, führen wir folgende Anweisung durch:
+
+```bash
+git checkout -b fancy-experiment
+```
+
+Und zu letzt:
+
+```bash
+git branch // Listet alle Branches im Repository auf.
+```
 
 Ändern Sie nun einige Dateien und fügen Sie neue dazu. Speichern Sie Ihre Arbeit mit `git add`, `git commit`, `git tag` und `git push`.
 
-Kehren Sie danach zurück in den `master` Branch.
+Kehren Sie danach zurück in den `master` Branch. **Was stellen Sie fest?**
 
 #### Aufgabe: `git merge`
 
 Finden Sie heraus wie Sie Änderungen aus dem Branch `fancy-experiment` in den `master` Branch übernehmen können.
+
+Nachdem wir die Änderungen zusammengeführt haben, können wir meist den Branch löschen. Dabei bleiben die Hauptverzweigungen `master` und `develop` erhalten.
 
 ### Weiterführende Links
 
