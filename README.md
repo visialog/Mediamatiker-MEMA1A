@@ -1,8 +1,62 @@
 # Mediamatiker Modul 286
 
+## Aufträge am 20.01.2020
+
+- Pendenzen vom 6.1.2020 aufarbeiten! Es fehlt immer noch eine **Bibliothek für icons bzw. glyphs**.
+
+### Erstellung von Enwicklungszweigen (Branches, Merge) und Versionen (Tags)
+
+**Tags** werden verwendet, um wichtige Punkte in der Projekthistorie zu markieren. Tags können anstelle der Commit-Hashes verwendet werden, um Commits zu referenzieren. *Es ist üblich, bei einem Release den jeweiligen Commit mit einer Versionsnummern (Tag) zu versehen.* Git unterstützt sog. *Annotierte Tags*, diese werden als vollständige Objekte in der Git-Datenbank gespeichert. Somit enthalten Sie den Author, die E-Mail und das Datum, haben eine Meldung und können mit GNU Privacy Guard (GPG) signiert und überprüft werden.
+
+Ein **Branch** repräsentiert eine unabhängige Entwicklungslinie. Wenn wir ein neues Feature hinzufügen oder einen Bug fixen wollen – unabhängig von der Grösse –, setzen wir einen neuen Branch auf, um unsere Änderungen abzukapseln. So wird sichergestellt, dass instabiler Code nicht direkt ins Hauptprojekt committet wird, und wir haben die Möglichkeit, die History unseres Features aufzuräumen, bevor wir es in den Haupt-Branch mergen.
+
+#### Übung: `git tag`
+
+**Reproduzieren Sie die folgende Anweisungen in ihrem persönlichem Repository.**
+
+Die folgende Anweisung erzeugt ein neuer kommentierten Tag, das mit v1.4 identifiziert wird:
+`git tag -a v1.4 -m "my version 1.4"`
+
+Um die gespeicherte Tags in einem Repo aufzulisten, führen Sie folgender Befehl aus:
+`git tag`
+
+Standardmässig beinhaltet ein `git push` keine Tags. Diese müssen explizit an `git push` übergeben werden.
+`git push origin v1.4`
+
+#### Übung: `git branch`
+
+`git branch`
+Listet alle Branches im Repository auf.
+
+Erstellen wir einen Branch mit dem folgenden Befehl:
+`git branch crazy-experiment`
+
+Auf diese Weise wird lediglich ein neuer Branch erstellt. Wenn wir beginnen wollen, ihm Commits hinzuzufügen, müssen wir ihn mit `git checkout` auswählen und dann die Standardbefehle `git add` und `git commit` verwenden.
+
+`git checkout crazy-experiment`
+Checkt den spezifischen Branch aus, der mit `git branch` erstellt wurde.
+
+Um einen Branch zu erstellen und diesen direkt einzusetzen, führen Sie folgende Anweisung durch:
+`git checkout -b fancy-experiment`
+
+Ändern Sie nun einige Dateien und fügen Sie neue dazu. Speichern Sie Ihre Arbeit mit `git add`, `git commit`, `git tag` und `git push`.
+
+Kehren Sie danach zurück in den `master` Branch.
+
+#### Aufgabe: `git merge`
+
+Finden Sie heraus wie Sie Änderungen aus dem Branch `fancy-experiment` in den `master` Branch übernehmen können.
+
+### Weiterführende Links
+
+- [Git Grundlagen - Tagging](https://git-scm.com/book/de/v2/Git-Grundlagen-Tagging)
+- [Git: Mit Branches arbeiten (git checkout)](https://blog.seibert-media.net/blog/2015/08/04/git-mit-branches-arbeiten-git-checkout/)
+- [Git Branching](https://git-scm.com/book/de/v2/Git-Branching-Einfaches-Branching-und-Merging)
+- [Git Branching - Branches auf einen Blick](https://git-scm.com/book/de/v2/Git-Branching-Branches-auf-einen-Blick)
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+
 ## Aufträge am 13.01.2020
 
-- Pendenzen vom 6.1.2020 aufarbeiten
 - [Der HTML-Editor ist ein unverzichtbares Werkzeug, deshalb wähle weise](https://www.drweb.de/8-besten-kostenlosen-html-editoren-webentwickler-windows-edition-53187/)
 - [Kostenlose HTML-Editoren: Die 11 Besten für Webentwickler unter macOS](https://www.drweb.de/5-besten-kostenlosen-html-editoren-webentwickler-mac-edition-53159/)
 
