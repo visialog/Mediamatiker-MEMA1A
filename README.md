@@ -6,9 +6,16 @@
 
 ### Erstellung von Enwicklungszweigen (Branches, Merge) und Versionen (Tags)
 
+Die **Versionsnummer** ist die Grundlage für die Versionsverwaltung. Den Prozess der Vergabe der Versionsnummer nennt man Versionierung. Für die Software-Entwicklung stellen Versionsnummern eine weitaus wichtigere Information als für den Kunden dar. Mit Hilfe der Versionsnummern kann unter anderem sichergestellt werden, dass in Entwicklergruppen neue Programmteile nicht mit älteren überschrieben werden. Auf Grundlage einer Versionsnummer von `MAJOR.MINOR.PATCH` nach der [Semantic Versioning Spezifikation](https://semver.org/lang/de/) werden die einzelnen Elemente folgendermassen erhöht:
+
+1. MAJOR wird erhöht, wenn (API-)inkompatible Änderungen veröffentlicht werden,
+2. MINOR wird erhöht, wenn neue Funktionalitäten, welche kompatibel zur bisherigen API sind, veröffentlicht werden, und
+3. PATCH wird erhöht, wenn die Änderungen ausschliesslich API-kompatible Bugfixes umfassen.
+
 **Tags** werden verwendet, um wichtige Punkte in der Projekthistorie zu markieren. Tags können anstelle der Commit-Hashes verwendet werden, um Commits zu referenzieren. *Es ist üblich, bei einem Release den jeweiligen Commit mit einer Versionsnummern (Tag) zu versehen.* Git unterstützt sog. *Annotierte Tags*, diese werden als vollständige Objekte in der Git-Datenbank gespeichert. Somit enthalten Sie den Author, die E-Mail und das Datum, haben eine Meldung und können mit GNU Privacy Guard (GPG) signiert und überprüft werden.
 
 Ein **Branch** repräsentiert eine unabhängige Entwicklungslinie. Wenn wir ein neues Feature hinzufügen oder einen Bug fixen wollen – unabhängig von der Grösse –, setzen wir einen neuen Branch auf, um unsere Änderungen abzukapseln. So wird sichergestellt, dass instabiler Code nicht direkt ins Hauptprojekt committet wird, und wir haben die Möglichkeit, die History unseres Features aufzuräumen, bevor wir es in den Haupt-Branch mergen.
+
 
 #### Übung: `git tag`
 
