@@ -4,6 +4,12 @@
 
 - Pendenzen vom 6.1.2020 aufarbeiten! Es fehlt immer noch eine **Bibliothek für icons bzw. glyphs**.
 
+### Leistungsnachweis (Bewertung am 27.01.2020)
+
+- `develop` branch erstellt
+- `crazy` branch erstellt und mindstens 3 (leere) Dateien hinzugefügt
+- `master` branch mit tag v0.1.0
+
 ### Erstellung von Enwicklungszweigen (Branches, Merge) und Versionen (Tags)
 
 Die **Versionsnummer** ist die Grundlage für die Versionsverwaltung. Den Prozess der Vergabe der Versionsnummer nennt man Versionierung. Für die Software-Entwicklung stellen Versionsnummern eine weitaus wichtigere Information als für den Kunden dar. Mit Hilfe der Versionsnummern kann unter anderem sichergestellt werden, dass in Entwicklergruppen neue Programmteile nicht mit älteren überschrieben werden.
