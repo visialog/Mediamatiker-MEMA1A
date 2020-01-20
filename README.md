@@ -6,9 +6,9 @@
 
 ### Leistungsnachweis (Bewertung am 27.01.2020)
 
-- `develop` branch erstellt
-- `crazy` branch erstellt und mindstens 3 (leere) Dateien hinzugefügt
-- `master` branch mit tag v0.1.0
+- `develop` branch erstellt (1P)
+- `crazy` branch erstellt und mindstens 3 (leere) Dateien hinzugefügt  (1P)
+- `master` branch mit tag v0.1.0  (1P)
 
 ### Erstellung von Enwicklungszweigen (Branches, Merge) und Versionen (Tags)
 
