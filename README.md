@@ -16,7 +16,7 @@ An dieser Stelle kommt der Befehl `git log` ins Spiel.
 
 ```bash
 git log                      # Zeigt die gesamte Commit-Historie in der voreingestellten Formatierung an.
-git log readme.txt           # Commits, die readme.txt verändert haben.
+git log README.md           # Commits, die readme.txt verändert haben.
 git log -n 3                 # Zeigt die Commit-Historie der letzten 3 Commits.
 git log --since="3 days ago" # Zeigt die Commit-Historie der letzten 3 Tage.
 git log --oneline            # Komprimiert jeden Commit auf eine einzelne Zeile.
