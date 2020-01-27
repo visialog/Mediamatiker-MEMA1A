@@ -43,7 +43,7 @@ Fügen Sie einfach die Log-Option `--no-merges` hinzu.
 
 - Lassen Sie sich alle Commits der letzten Stunde ausgeben.
 - Lassen Sie sich alle Commits ausgeben, die die Datei README.md verändert haben.
-- Erstellen Sie ein CHANGELOG für die bisherigen Änderungen. 
+- Erstellen Sie ein CHANGELOG für die bisherigen Änderungen. (Leistungsnachweis / 3 Punkte)
 
 ## Weiterführende Links und Quellen
 
