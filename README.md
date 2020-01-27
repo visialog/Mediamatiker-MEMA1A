@@ -33,7 +33,7 @@ Nützliche Optionen für `git log --pretty=format` listet einige der nützlichst
 git log --pretty=format:'%an commited "%s" (%h) %ar'
 git log --format="  * %s"
 # When you create a commit that should be listed in the changelog just place #changelog in the commit message (probably on the second line so it doesn't show). 
-git log v0.1.1...v0.1.2 --pretty=format:'<li> <a href="http://github.com/<username>/<project>/commit/%H">view commit &bull;</a> %s</li> ' --reverse | grep "#changelog"
+git log v0.1.1...v0.1.2 --pretty=format:'- [view commit](<a href="http://github.com/<username>/<project>/commit/%H">) &bull; %s ' --reverse | grep "#changelog"
 ```
 
 **Tip: Die Anzeige von Merge-Commits unterdrücken**
