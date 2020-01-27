@@ -1,5 +1,57 @@
 # Mediamatiker Modul 286
 
+# Aufträge am 27.01.2020
+
+## Angestrebte Kompetenzen und Lernziele
+
+- Ich kenne die Bedeutung des CHANGELOG
+- Ich kann ein CHANGELOG für mein Projekt führen
+- Ich kann recherche im Repository durchführen
+
+## Umgang mit `git log`
+
+Der Zweck eines jeden Versionskontrollsystems besteht darin, Änderungen an unserem Code festzuhalten.
+Aber all die Historie verfügbar zu haben, bringt uns nichts, solange wir nicht wissen, wie wir in ihr navigieren.
+An dieser Stelle kommt der Befehl `git log` ins Spiel.
+
+```bash
+git log                      # Zeigt die gesamte Commit-Historie in der voreingestellten Formatierung an.
+git log readme.txt           # Commits, die readme.txt verändert haben.
+git log -n 3                 # Zeigt die Commit-Historie der letzten 3 Commits.
+git log --since="3 days ago" # Zeigt die Commit-Historie der letzten 3 Tage.
+git log --oneline            # Komprimiert jeden Commit auf eine einzelne Zeile.
+git log --oneline --decorate # Die Option --decorate weist Git an, alle Referenzen (also Branches, Tags usw.) anzuzeigen, die auf jeden Commit verweisen.
+git log --author="<muster>"  # Sucht nach Commits eines bestimmten Autoren.
+git log --grep="<muster>"    # Sucht nach Commits mit Commit-Beschreibung, die auf <muster> passen.
+```
+
+Die interessanteste Option ist format, mit der Sie Ihr eigenes Log-Ausgabeformat festlegen können. 
+Dieses Verfahren ist besonders nützlich: da Sie das Format explizit angeben, wissen Sie, dass es sich mit Updates von Git nicht ändert:
+Nützliche Optionen für `git log --pretty=format` listet einige der nützlichsten Optionen auf, die `format` bietet.
+
+```bash
+git log --pretty=format:'%an commited "%s" (%h) %ar'
+git log --format="  * %s"
+# When you create a commit that should be listed in the changelog just place #changelog in the commit message (probably on the second line so it doesn't show). 
+git log v0.1.1...v0.1.2 --pretty=format:'<li> <a href="http://github.com/<username>/<project>/commit/%H">view commit &bull;</a> %s</li> ' --reverse | grep "#changelog"
+```
+
+**Tip: Die Anzeige von Merge-Commits unterdrücken**
+Fügen Sie einfach die Log-Option `--no-merges` hinzu.
+
+## Aufgaben
+
+- Lassen Sie sich alle Commits der letzten Stunde ausgeben.
+- Lassen Sie sich alle Commits ausgeben, die die Datei README.md verändert haben.
+- Erstellen Sie ein CHANGELOG für die bisherigen Änderungen. 
+
+## Weiterführende Links und Quellen
+
+- [Git Grundlagen - Anzeigen der Commit-Historie](https://git-scm.com/book/de/v2/Git-Grundlagen-Anzeigen-der-Commit-Historie)
+- [Führe ein CHANGELOG](https://keepachangelog.com/de/1.0.0/)
+- [Recherche im Repository](https://www.ralfebert.de/git/log-recherche/)
+- [gitchangelog generates a changelog thanks to git log.](https://pypi.org/project/gitchangelog/)
+
 ## Aufträge am 20.01.2020
 
 - Pendenzen vom 6.1.2020 aufarbeiten! Es fehlt immer noch eine **Bibliothek für icons bzw. glyphs**.
